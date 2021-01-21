@@ -54,7 +54,3 @@ if [ ! -z ${DELDATE} ] && [ -d ${DELDATE} ]; then
 rm -rf ${DELDATE}
 fi
 fi
-
-# Recovery, extract files from tar and then replace the below command with your variables in the script above
-# sudo mysql -u(MYSQL_USER) -p(MYSQL_PASSWORD) DATABASE_NAME < DATABASE_NAME.sql
-# sudo mv WEBSITE_NAME/ WEBSITE_PATH/
