@@ -22,7 +22,7 @@ BACKUP_RETAIN_DAYS=20 ## Number of days to keep local backup copy
 TODAY=`date +"%m-%d-%y"`
 
 
-# Backup Script Begins 
+###### Backup Script Begins ######
 
 # Mysql Backup
 mkdir -p ${BACKUP_PATH}/${TODAY}
